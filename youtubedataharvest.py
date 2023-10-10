@@ -8,14 +8,14 @@ from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
 
 # MongoDB connection
-url = "mongodb+srv://Diwakar:diwa18@cluster0.co4t0ed.mongodb.net/"
+url = "mongodb+srv://Diwakar:<password>@cluster0.co4t0ed.mongodb.net/"
 client = MongoClient(url, server_api=ServerApi('1'))
 
 db = client["youtube_db"]  #  database name
 collection = db["channel_data"]  # collection name
 
 #  YouTube API key
-api_key = 'AIzaSyDA8UlupW5kIdb4l_HE5RGw2aGS-hEZsbc'
+api_key = 'Youtube API'
 
 # function to get channel stats
 def get_channel_stats(youtube, channel_id):
