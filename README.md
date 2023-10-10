@@ -27,4 +27,4 @@ Additionally,
 
 you will need to obtain a YouTube Data API key from the Google Developer Console and configure MongoDB connection settings.
 
-To get YouTube channel ID:Simply Go to the channel of that person-> Right-click on any space there-> Click on view page source-> source page will open->press ctrl+f and search ChannelID and press Enter->  The search results will highlight the line in the source code where the Channel ID is mentioned-> Copy the Channel ID or UC ID from the source code and use it as needed.
+To get YouTube channel ID:Simply Go to the channel of that person-> Right-click on any space there-> Click on view page source-> source page will open->press ctrl+f and search ChannelID and press Enter->  The search results will highlight the line in the source code where the Channel ID is mentioned-> Copy the Channel ID from the source code and use it as needed.
